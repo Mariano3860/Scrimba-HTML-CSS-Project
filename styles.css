@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-style: arial;
+    color: #1D3557;
+}
+
+img {
+    width: 100px;
+}
+
+.divHero{
+        width: 100%;
+        Height: 343px;
+        left: 0px;
+        top: 0px;
+       
+        background:  url(images/torshov.jpg);
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        
+        margin: 0px;
+        padding: 0%;
+        
+        color: #FFFFFF;   
+}
+
+#title{  
+    font-weight: 700;
+    font-size: 32px;
+    background: #1D3557;
+    margin: 11px auto;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+#subtitle{ 
+    font-weight: 700;
+    font-size: 19px;
+    margin: 0px 22%;
+    background: #457B9D;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+.divAct{
+        width: 100%;
+        Height: 343px;
+        left: 0px;
+        top: 0px;
+        
+        background: #F1FAEE;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        margin: 0px;
+        padding: 0%;  
+}
+
+.RoundImg{
+    height: 30%;
+    border-radius: 50%;
+}
+
+.divActCol{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divActColTitle{  
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.divActColContent{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Guide{
+        width: 100%;
+        Height: 343px;
+        left: 0px;
+        top: 0px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        
+        margin: 0px;
+        padding: 0%;
+}
+
+.GuideBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background: #A8DADC;
+        padding: 5px 12px;
+        border-radius: 10px;
+        margin: 25px 80px;
+        border-bottom: 5px solid #1D3557;
+}
+
+#GuideBoxText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 3%;
+}
+
+#ImgPer{
+        margin: 0%;
+        height: 88%;
+        width: auto;
+}
